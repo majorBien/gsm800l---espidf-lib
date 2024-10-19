@@ -8,11 +8,7 @@
 
 
 void app_main(void) {
-    init_uart();
-    init_sim800l();
-
-	send_sms("515560361", "hej");	
-
-	
-    
+    	init_uart();
+    	init_sim800l();
+	send_sms("515560361", "hello");	
 }
